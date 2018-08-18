@@ -1,11 +1,3 @@
-import React, { Component } from "react";
-import './index.scss';
+import { index } from './index.scss';
 
-class MyComponent extends Component {
-
-  render() {
-    return <div>MyComponent</div>
-  }
-};
-
-export default MyComponent;
+export default { index };
